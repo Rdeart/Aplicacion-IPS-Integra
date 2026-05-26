@@ -30,4 +30,13 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src/app'),
     },
   },
+  build: {
+    // Ensure UTF-8 encoding is preserved during build
+    target: 'esnext',
+    minify: 'terser',
+    terserOptions: {
+      compress: true,
+      mangle: true,
+    },
+  },
 })

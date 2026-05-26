@@ -1,0 +1,28 @@
+{
+  // Encoding
+  "files.encoding": "utf8",
+  "files.autoGuessEncoding": false,
+  
+  // End of line
+  "files.eol": "\n",
+  
+  // Editor settings
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+  // Search and files
+  "search.exclude": {
+    "node_modules": true,
+    "dist": true
+  },
+  "files.exclude": {
+    "node_modules": true,
+    ".git": true
+  }
+}
