@@ -24,7 +24,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: 'https://rodriguezcruzkatherindayana-star.github.io/project_ips/',
+  base: 'https://Rdeart.github.io/Aplicacion-IPS-Integra/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src/app'),
